@@ -1,112 +1,84 @@
 body {
-    font-family: monospace;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6f2;
+    color: #4b0082;
     margin: 0;
     padding: 20px;
 }
 
+header {
+    text-align: center;
+    background-color: #ffb6c1;
+    padding: 30px;
+    border-bottom: 4px dashed #ff69b4;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #800080;
+}
+
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: auto;
     padding: 20px;
+    background: #fff0f5;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ffa6c9;
 }
 
 h2 {
-    color: #2c3e50;
-    margin-bottom: 15px;
+    color: #ff69b4;
+    border-bottom: 2px dotted #ffb6c1;
     padding-bottom: 5px;
-    border-bottom: 2px solid #3498db;
 }
 
 .espaco {
-    height: 60px;
+    height: 50px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.6);
 }
 
 th,
 td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ffc0cb;
 }
 
 th {
-    background-color: #3498db;
-    color: white;
-    font-weight: 600;
+    background-color: #ff69b4;
+    color: #fff;
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
 }
 
 tr:nth-child(even) {
-    background-color: #f8f9fa;
+    background-color: #ffe4ec;
 }
 
 tr:hover {
-    background-color: #e9f7fe;
+    background-color: #ffe0f0;
 }
 
 tfoot tr {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #ffb6c1;
+    color: #4b0082;
     font-weight: bold;
 }
 
-/* Estilos Específicos para Cada Tabela */
-.tabela-filmes {
-    background-color: #fff;
-}
-
-.tabela-filmes th {
-    background-color: #e74c3c;
-}
-
-.tabela-filmes tr:hover {
-    background-color: #02cd05;
-}
-
-.tabela-aulas {
-    background-color: #fff;
-}
-
-.tabela-aulas th {
-    background-color: #2ecc71;
-}
-
-.tabela-aulas tr:hover {
-    background-color: #02cd05;
-}
-
-.tabela-compras {
-    background-color: #fff;
-}
-
-.tabela-compras th {
-    background-color: #f39c12;
-}
-
-.tabela-compras tr:hover {
-    background-color: #02cd05;
-}
-
-.tabela-campeonato {
-    background-color: #fff;
-}
-
-.tabela-campeonato th {
-    background-color: #9b59b6;
-}
-
-.tabela-campeonato tr:hover {
-    background-color: #02cd05;
+footer {
+    background-color: #ffb6c1;
+    color: #800080;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px dashed #ff69b4;
 }
